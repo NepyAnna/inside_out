@@ -102,6 +102,16 @@ public class ProgramController {
 
     }
 
+    private void sortByMonth(Scanner scanner) {
+        System.out.println("Ingrese la fecha (dd/mm/year):");
+        String dateInput = scanner.nextLine();
+
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+        LocalDate date= LocalDate.parse(dateInput, formatter);
+
+
+    }
+
     public List<Emotion> getEmotions() {
         return emotions;
     }
