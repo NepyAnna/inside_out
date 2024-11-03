@@ -49,14 +49,14 @@ public class ProgramController {
                     System.out.println("Here will be another menu");
                     break;
                 case 4:
-                    System.out.println("Here will be another menu");
+                    sortByDate(scanner);
                     break;
                 case 5:
-                    System.out.println("До зустрічі!");
+                    System.out.println("Hasta la próxima!!!");
                     programRuning = false;
                     break;
                 default:
-                    System.out.println("Wrong choice!");
+                    System.out.println("No es la elección correcta!");
                     break;
             }
         }
@@ -102,7 +102,7 @@ public class ProgramController {
 
     }
 
-    private void sortByMonth(Scanner scanner) {
+    private void sortByDate(Scanner scanner) {
         System.out.println("Ingrese la fecha (dd/mm/year):");
         String dateInput = scanner.nextLine();
 
@@ -111,9 +111,12 @@ public class ProgramController {
 
         List<Moment> sortedMoments = moments.stream().filter(moment -> moment.getDateOfMoment().equals(date)).toList();
 
-        
-
-
+        if (sortedMoments.isEmpty()){
+            System.out.println("No se encontraron momentos para la fecha seleccionada.");
+        } else {
+            System.out.println("Lista de momentos por fecha " + ":");
+            sortedMoments.forEach(System.out::println);
+        }
     }
 
     public List<Emotion> getEmotions() {

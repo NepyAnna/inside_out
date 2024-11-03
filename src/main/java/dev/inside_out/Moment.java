@@ -57,6 +57,4 @@ public class Moment {
                 "Description: " + description + "\n" +
                 "Emotion: " + emotion.getNameOfEmotion()+"\n";
     }
-    
-    
 }
