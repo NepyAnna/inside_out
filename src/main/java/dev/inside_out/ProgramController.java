@@ -109,6 +109,10 @@ public class ProgramController {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
         LocalDate date= LocalDate.parse(dateInput, formatter);
 
+        List<Moment> sortedMoments = moments.stream().filter(moment -> moment.getDateOfMoment().equals(date)).toList();
+
+        
+
 
     }
 
