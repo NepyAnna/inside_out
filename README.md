@@ -53,4 +53,7 @@ Diagram
 
 Authors
 
-Yuliana-Alcala, Andreina2,  NepyAnna , Volodymyr Yushkevich
+Yuliana-Alcala https://github.com/Yuliana-Alcala,
+Andreina2 https://github.com/Andreina2,
+NepyAnna https://github.com/NepyAnna,
+Volodymyr Yushkevich https://github.com/vyushkevich
