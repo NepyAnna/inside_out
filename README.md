@@ -53,7 +53,10 @@ Diagram
 
 Authors
 
-Yuliana-Alcala https://github.com/Yuliana-Alcala,
-Andreina2 https://github.com/Andreina2,
-NepyAnna https://github.com/NepyAnna,
-Volodymyr Yushkevich https://github.com/vyushkevich
+Yuliana-Alcala [![Yuliana-Alcala](https://img.icons8.com/ios-glyphs/30/000000/github.png)](https://github.com/Yuliana-Alcala),
+Andreina2 [![Andreina2](https://img.icons8.com/ios-glyphs/30/000000/github.png)](https://github.com/Andreina2),
+NepyAnna [![NepyAnna](https://img.icons8.com/ios-glyphs/30/000000/github.png)](https://github.com/NepyAnna),
+Volodymyr Yushkevich [![Volodymyr Yushkevich](https://img.icons8.com/ios-glyphs/30/000000/github.png)](https://github.com/vyushkevich)
+
+
+
